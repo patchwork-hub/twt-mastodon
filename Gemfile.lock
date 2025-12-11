@@ -9,14 +9,14 @@ GIT
 
 GIT
   remote: https://github.com/patchwork-hub/accounts
-  revision: 9d2cd8bb92202a8a7b8235c832418b51898af5d1
-  branch: patchwork_only
+  revision: 035df6df8eb708f56063b7f5374ecca1be855bc2
+  branch: accounts-v450
   specs:
     accounts (0.1.0)
       byebug (~> 11.1)
       googleauth (~> 1.13, >= 1.13.1)
       httparty (~> 0.23.1)
-      rails (~> 8.0)
+      rails (>= 7.1, < 9.0)
 
 GIT
   remote: https://github.com/patchwork-hub/content_filters
@@ -39,14 +39,14 @@ GIT
 
 GIT
   remote: https://github.com/patchwork-hub/posts
-  revision: bd7709db8a8b235a260553da03569039f9d53d19
-  branch: v_450
+  revision: 68998ad645d2bbbfbcb4d01252f9640aefec233e
+  branch: posts-v450
   specs:
     posts (0.1.0)
       annotaterb (~> 4.13)
       byebug (~> 11.1)
       link_thumbnailer (~> 3.4)
-      rails (~> 8.0)
+      rails (>= 7.1, < 9.0)
 
 GEM
   remote: https://rubygems.org/

@@ -235,10 +235,10 @@ gem 'hcaptcha', '~> 7.1'
 
 gem 'mail', '~> 2.8'
 
-gem 'accounts', git: 'https://github.com/patchwork-hub/accounts', branch: 'patchwork_only'
+gem 'accounts', git: 'https://github.com/patchwork-hub/accounts', branch: 'accounts-v450'
 gem 'content_filters', git: 'https://github.com/patchwork-hub/content_filters', branch: 'main'
 gem 'conversations', git: 'https://github.com/patchwork-hub/conversations', branch: 'main'
-gem 'posts', git: 'https://github.com/patchwork-hub/posts', branch: 'v_450'
+gem 'posts', git: 'https://github.com/patchwork-hub/posts', branch: 'posts-v450'
 
 # *** Add this alongside Post Gems ***
 gem 'faraday-typhoeus', '~> 1.1'
