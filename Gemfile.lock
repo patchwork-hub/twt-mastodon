@@ -20,22 +20,22 @@ GIT
 
 GIT
   remote: https://github.com/patchwork-hub/content_filters
-  revision: 4e2b4271a7c977a0a52b71931ff5b7e2fe7c1060
+  revision: d321354e88e70ee05b4f0ea936e1833e3080b5a1
   branch: main
   specs:
     content_filters (0.1.0)
       httparty (~> 0.23.1)
-      rails (~> 8.0)
+      rails (>= 7.1, < 9.0)
 
 GIT
   remote: https://github.com/patchwork-hub/conversations
-  revision: f73c735dd9625a8d87e860d7e2169aec348d1c3d
+  revision: 0adb4ac11e1a616794fcc2801242e4498b457c6f
   branch: main
   specs:
     conversations (0.1.0)
       annotaterb (~> 4.13)
       byebug (~> 11.1)
-      rails (~> 8.0)
+      rails (>= 7.1, < 9.0)
 
 GIT
   remote: https://github.com/patchwork-hub/posts
