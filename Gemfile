@@ -235,8 +235,7 @@ gem 'mail', '~> 2.8'
 
 gem 'vite_rails', '~> 3.0.19'
 
-# gem 'accounts', git: 'https://github.com/patchwork-hub/accounts', branch: 'accounts-v450'
-# gem 'posts', git: 'https://github.com/patchwork-hub/posts', branch: 'posts-v450'
-# gem 'conversations', git: 'https://github.com/patchwork-hub/conversations', branch: 'main'
-# gem 'faraday-typhoeus', '~> 1.1'
-
+gem 'accounts', git: 'https://github.com/patchwork-hub/accounts', branch: 'accounts-v450'
+gem 'conversations', git: 'https://github.com/patchwork-hub/conversations', branch: 'main'
+gem 'faraday-typhoeus', '~> 1.1'
+gem 'posts', git: 'https://github.com/patchwork-hub/posts', branch: 'posts-v450'
