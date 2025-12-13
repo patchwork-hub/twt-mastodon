@@ -10,7 +10,7 @@ GIT
 GIT
   remote: https://github.com/patchwork-hub/accounts
   revision: 035df6df8eb708f56063b7f5374ecca1be855bc2
-  branch: accounts-v450
+  branch: mastodon-4.5.0
   specs:
     accounts (0.1.0)
       byebug (~> 11.1)
@@ -31,7 +31,7 @@ GIT
 GIT
   remote: https://github.com/patchwork-hub/posts
   revision: 18a345f15d03d170c943b38e84975030625c34ec
-  branch: posts-v450
+  branch: mastodon-4.5.0
   specs:
     posts (0.1.0)
       annotaterb (~> 4.13)
