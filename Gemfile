@@ -195,6 +195,8 @@ group :development do
 
   # Validate missing i18n keys
   gem 'i18n-tasks', '~> 1.0', require: false
+
+  gem 'byebug', '~> 11.0'
 end
 
 group :development, :test do
@@ -235,9 +237,9 @@ gem 'mail', '~> 2.8'
 
 gem 'vite_rails', '~> 3.0.19'
 
-gem 'accounts', git: 'https://github.com/patchwork-hub/accounts', branch: 'accounts-v453'
+gem 'accounts', git: 'https://github.com/patchwork-hub/accounts', branch: 'mastodon-4.5.3'
 gem 'conversations', git: 'https://github.com/patchwork-hub/conversations', branch: 'mastodon-4.5.3'
-gem 'posts', git: 'https://github.com/patchwork-hub/posts', branch: 'posts-v453'
+gem 'posts', git: 'https://github.com/patchwork-hub/posts', branch: 'mastodon-4.5.3'
 
 # *** Add this alongside Post Gems ***
 gem 'faraday-typhoeus', '~> 1.1'

@@ -9,8 +9,8 @@ GIT
 
 GIT
   remote: https://github.com/patchwork-hub/accounts
-  revision: eb613c317d6029cdd636fe3ea16d46e554008c0c
-  branch: accounts-v453
+  revision: c43fde86175429e5fdc757714d4eec1605173f64
+  branch: mastodon-4.5.3
   specs:
     accounts (0.1.0)
       byebug (~> 11.1)
@@ -31,7 +31,7 @@ GIT
 GIT
   remote: https://github.com/patchwork-hub/posts
   revision: 10d931eec635770ae8abb4fbbb5e78fc3f73fdde
-  branch: posts-v453
+  branch: mastodon-4.5.3
   specs:
     posts (0.1.0)
       annotaterb (~> 4.13)
@@ -1043,6 +1043,7 @@ DEPENDENCIES
   brakeman (~> 7.0)
   browser
   bundler-audit (~> 0.9)
+  byebug (~> 11.0)
   capybara (~> 3.39)
   capybara-playwright-driver
   charlock_holmes (~> 0.7.7)
