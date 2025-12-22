@@ -1,6 +1,6 @@
 GIT
   remote: http://github.com/patchwork-hub/timelines_extension
-  revision: 1ea2ca5b1b7614932b70bbe3f2d52ae45c1b8580
+  revision: 6b807b0f05f12bb47db2f1fff64ea6636ee822c6
   branch: mastodon-4.5.3
   specs:
     timelines_extension (0.1.0)
